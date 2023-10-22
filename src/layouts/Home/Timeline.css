@@ -1,0 +1,23 @@
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+  background: #00e5ff !important;
+}
+
+.vertical-timeline-element-title {
+  color: black;
+}
+
+.vertical-timeline-element-subtitle {
+  color: black;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in p {
+  color: black;
+}
+
+.vertical-timeline::before {
+  background: var(--colorTextBody) !important;
+}
+
+.vertical-timeline-element-date {
+  color: var(--colorTextBody);
+}
