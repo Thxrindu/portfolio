@@ -1,5 +1,4 @@
 import projectKatakana from 'assets/katakana-project.svg?url';
-import { Button } from 'components/Button';
 import { Divider } from 'components/Divider';
 import { Heading } from 'components/Heading';
 import { deviceModels } from 'components/Model/deviceModels';
