@@ -46,7 +46,7 @@ import backgroundSpr from 'assets/spr-background.jpg';
 import { Footer } from 'components/Footer';
 // import { Image } from 'components/Image';
 // import { Link } from 'components/Link';
-// import { Meta } from 'components/Meta';
+import { Meta } from 'components/Meta';
 // import { SegmentedControl, SegmentedControlOption } from 'components/SegmentedControl';
 import { useTheme } from 'components/ThemeProvider';
 // import { useAppContext } from 'hooks';
@@ -62,8 +62,8 @@ import {
   // ProjectSectionText,
   // ProjectTextRow,
 } from 'layouts/Project';
-import dynamic from 'next/dynamic';
-import { Fragment, useMemo } from 'react';
+// import dynamic from 'next/dynamic';
+import { Fragment } from 'react';
 // import { media } from 'utils/style';
 // import styles from './SmartSparrow.module.css';
 
@@ -77,10 +77,10 @@ const roles = ['role', 'role', 'role'];
 
 export const SmartSparrow = () => {
   const { themeId } = useTheme();
-  const { dispatch } = useAppContext();
+  // const { dispatch } = useAppContext();
 
   const isDark = themeId === 'dark';
-  const themes = ['dark', 'light'];
+  // const themes = ['dark', 'light'];
 
   // const handleThemeChange = index => {
   //   dispatch({ type: 'setTheme', value: themes[index] });
