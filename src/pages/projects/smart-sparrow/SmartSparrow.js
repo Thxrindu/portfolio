@@ -54,21 +54,21 @@ import {
   ProjectBackground,
   ProjectContainer,
   ProjectHeader,
-  ProjectImage,
-  ProjectSection,
-  ProjectSectionColumns,
-  ProjectSectionContent,
-  ProjectSectionHeading,
-  ProjectSectionText,
-  ProjectTextRow,
+  // ProjectImage,
+  // ProjectSection,
+  // ProjectSectionColumns,
+  // ProjectSectionContent,
+  // ProjectSectionHeading,
+  // ProjectSectionText,
+  // ProjectTextRow,
 } from 'layouts/Project';
 import dynamic from 'next/dynamic';
 import { Fragment, useMemo } from 'react';
-import { media } from 'utils/style';
-import styles from './SmartSparrow.module.css';
+// import { media } from 'utils/style';
+// import styles from './SmartSparrow.module.css';
 
-const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
-const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
+// const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
+// const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
 //TODO : need to change project details
 const title = 'Project title';
@@ -82,9 +82,9 @@ export const SmartSparrow = () => {
   const isDark = themeId === 'dark';
   const themes = ['dark', 'light'];
 
-  const handleThemeChange = index => {
-    dispatch({ type: 'setTheme', value: themes[index] });
-  };
+  // const handleThemeChange = index => {
+  //   dispatch({ type: 'setTheme', value: themes[index] });
+  // };
 
   return (
     <Fragment>

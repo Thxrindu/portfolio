@@ -37,7 +37,7 @@
 //   ProjectSectionText,
 //   ProjectTextRow,
 // } from 'layouts/Project';
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 // import { Fragment } from 'react';
 // import { media } from 'utils/style';
 // import styles from './VolkiharKnight.module.css';
