@@ -1,54 +1,54 @@
-import volkiharBackgroundLarge from 'assets/volkihar-background-large.jpg';
-import volkiharBackgroundPlaceholder from 'assets/volkihar-background-placeholder.jpg';
-import volkiharBackground from 'assets/volkihar-background.jpg';
-import volkiharBannerLarge from 'assets/volkihar-banner-large.jpg';
-import volkiharBannerPlaceholder from 'assets/volkihar-banner-placeholder.jpg';
-import volkiharBanner from 'assets/volkihar-banner.jpg';
-import volkiharBookLarge from 'assets/volkihar-book-large.png';
-import volkiharBookPlaceholder from 'assets/volkihar-book-placeholder.png';
-import volkiharBook from 'assets/volkihar-book.png';
-import volkiharEnderalLarge from 'assets/volkihar-enderal-large.jpg';
-import volkiharEnderalLogoLarge from 'assets/volkihar-enderal-logo-large.png';
-import volkiharEnderalLogoPlaceholder from 'assets/volkihar-enderal-logo-placeholder.png';
-import volkiharEnderalLogo from 'assets/volkihar-enderal-logo.png';
-import volkiharEnderalPlaceholder from 'assets/volkihar-enderal-placeholder.jpg';
-import volkiharEnderal from 'assets/volkihar-enderal.jpg';
-import VolkiharKnightLogo from 'assets/volkihar-logo.svg';
-import volkiharSlide1Large from 'assets/volkihar-slide-1-large.jpg';
-import volkiharSlide1 from 'assets/volkihar-slide-1.jpg';
-import volkiharSlide2Large from 'assets/volkihar-slide-2-large.jpg';
-import volkiharSlide2 from 'assets/volkihar-slide-2.jpg';
-import volkiharSlide3Large from 'assets/volkihar-slide-3-large.jpg';
-import volkiharSlide3 from 'assets/volkihar-slide-3.jpg';
-import volkiharSlidePlaceholder from 'assets/volkihar-slide-placeholder.jpg';
-import { Button } from 'components/Button';
-import { Footer } from 'components/Footer';
-import { Image } from 'components/Image';
-import { Meta } from 'components/Meta';
-import {
-  ProjectBackground,
-  ProjectContainer,
-  ProjectHeader,
-  ProjectImage,
-  ProjectSection,
-  ProjectSectionColumns,
-  ProjectSectionContent,
-  ProjectSectionHeading,
-  ProjectSectionText,
-  ProjectTextRow,
-} from 'layouts/Project';
+// import volkiharBackgroundLarge from 'assets/volkihar-background-large.jpg';
+// import volkiharBackgroundPlaceholder from 'assets/volkihar-background-placeholder.jpg';
+// import volkiharBackground from 'assets/volkihar-background.jpg';
+// import volkiharBannerLarge from 'assets/volkihar-banner-large.jpg';
+// import volkiharBannerPlaceholder from 'assets/volkihar-banner-placeholder.jpg';
+// import volkiharBanner from 'assets/volkihar-banner.jpg';
+// import volkiharBookLarge from 'assets/volkihar-book-large.png';
+// import volkiharBookPlaceholder from 'assets/volkihar-book-placeholder.png';
+// import volkiharBook from 'assets/volkihar-book.png';
+// import volkiharEnderalLarge from 'assets/volkihar-enderal-large.jpg';
+// import volkiharEnderalLogoLarge from 'assets/volkihar-enderal-logo-large.png';
+// import volkiharEnderalLogoPlaceholder from 'assets/volkihar-enderal-logo-placeholder.png';
+// import volkiharEnderalLogo from 'assets/volkihar-enderal-logo.png';
+// import volkiharEnderalPlaceholder from 'assets/volkihar-enderal-placeholder.jpg';
+// import volkiharEnderal from 'assets/volkihar-enderal.jpg';
+// import VolkiharKnightLogo from 'assets/volkihar-logo.svg';
+// import volkiharSlide1Large from 'assets/volkihar-slide-1-large.jpg';
+// import volkiharSlide1 from 'assets/volkihar-slide-1.jpg';
+// import volkiharSlide2Large from 'assets/volkihar-slide-2-large.jpg';
+// import volkiharSlide2 from 'assets/volkihar-slide-2.jpg';
+// import volkiharSlide3Large from 'assets/volkihar-slide-3-large.jpg';
+// import volkiharSlide3 from 'assets/volkihar-slide-3.jpg';
+// import volkiharSlidePlaceholder from 'assets/volkihar-slide-placeholder.jpg';
+// import { Button } from 'components/Button';
+// import { Footer } from 'components/Footer';
+// import { Image } from 'components/Image';
+// import { Meta } from 'components/Meta';
+// import {
+//   ProjectBackground,
+//   ProjectContainer,
+//   ProjectHeader,
+//   ProjectImage,
+//   ProjectSection,
+//   ProjectSectionColumns,
+//   ProjectSectionContent,
+//   ProjectSectionHeading,
+//   ProjectSectionText,
+//   ProjectTextRow,
+// } from 'layouts/Project';
 import dynamic from 'next/dynamic';
-import { Fragment } from 'react';
-import { media } from 'utils/style';
-import styles from './VolkiharKnight.module.css';
+// import { Fragment } from 'react';
+// import { media } from 'utils/style';
+// import styles from './VolkiharKnight.module.css';
 
-const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
-const Armor = dynamic(() => import('./Armor').then(mod => mod.Armor));
+// const Carousel = dynamic(() => import('components/Carousel').then(mod => mod.Carousel));
+// const Armor = dynamic(() => import('./Armor').then(mod => mod.Armor));
 
 //TODO : need to change project details
-const title = 'Project title';
-const description = 'Project description';
-const roles = ['role', 'role', 'role'];
+// const title = 'Project title';
+// const description = 'Project description';
+// const roles = ['role', 'role', 'role'];
 
 export function VolkiharKnight() {
   return (

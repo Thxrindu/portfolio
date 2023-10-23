@@ -116,8 +116,8 @@ export const Home = () => {
         index={1}
         title="Research Project Management Tool"
         description="Advanced research management tool developed using MERN. Facilitated seamless collaboration between research supervisors and students, streamlining the research process."
-        buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        // buttonText="View project"
+        // buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -137,8 +137,8 @@ export const Home = () => {
         index={2}
         title="HIREME - Worker Hiring Android App"
         description="Java-based Android app 'Hire Me', enabling seamless hiring of workers across diverse domains. Users can easily find and engage skilled workers, while workers can register and showcase their availability, streamlining the hiring process."
-        buttonText="View project"
-        buttonLink="/"
+        // buttonText="View project"
+        // buttonLink="/"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -161,8 +161,8 @@ export const Home = () => {
         index={3}
         title="Event Management System"
         description="Event Management System using the MERN stack, allowing users to effortlessly plan events and rent necessary equipment. This platform revolutionizes event coordination, offering a user-friendly interface for streamlined planning and execution."
-        buttonText="View project"
-        buttonLink="/projects/slice"
+        // buttonText="View project"
+        // buttonLink="/projects/slice"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
@@ -182,8 +182,8 @@ export const Home = () => {
         index={4}
         title="Go Eco"
         description="GoEco – a React Native app dedicated to advancing the UN 12th Sustainable Development Goal. Seamlessly integrate eco-conscious practices into your daily routine, effortlessly saving water, fuel, electricity, and reducing food waste."
-        buttonText="View project"
-        buttonLink="/"
+        // buttonText="View project"
+        // buttonLink="/"
         model={{
           type: 'phone',
           alt: 'App login screen',

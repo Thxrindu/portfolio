@@ -18,17 +18,17 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I'm Tharindu Samarakoon, currently in my 4th year of studying Software Engineering.
+      I am Tharindu Samarakoon, currently in my 4th year of studying Software Engineering.
       My focus lies in both front-end and back-end development, allowing me to craft
       seamless digital experiences.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      When I'm not engaged in coding, I like to relax by going on adventures around the
-      city, going out for coffee with friends, or simply chilling out. I'm always up for
+      When I am not engaged in coding, I like to relax by going on adventures around the
+      city, going out for coffee with friends, or simply chilling out. I am always up for
       outdoor adventures and good company.
     </Text>
     <Text>
-      Feel free to drop me a line, whether it's about a new coding challenge or just to
+      Feel free to drop me a line, whether it is about a new coding challenge or just to
       share your favorite local hangout spots!
     </Text>
   </Fragment>

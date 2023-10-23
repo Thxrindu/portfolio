@@ -1,8 +1,8 @@
 import { Section } from 'components/Section';
-import { Text } from 'components/Text';
+// import { Text } from 'components/Text';
 import { Transition } from 'components/Transition';
 import React, { Fragment, useState } from 'react';
-import { media } from 'utils/style';
+// import { media } from 'utils/style';
 import styles from './Timeline.module.css';
 
 import {
@@ -11,7 +11,7 @@ import {
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import { BsMortarboard, BsFillBuildingsFill } from 'react-icons/bs';
+import { BsFillBuildingsFill } from 'react-icons/bs';
 import { Heading } from 'components/Heading';
 import { DecoderText } from 'components/DecoderText';
 

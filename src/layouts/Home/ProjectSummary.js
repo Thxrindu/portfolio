@@ -22,8 +22,8 @@ export const ProjectSummary = ({
   title,
   description,
   model,
-  buttonText,
-  buttonLink,
+  // buttonText,
+  // buttonLink,
   alternate,
   ...rest
 }) => {

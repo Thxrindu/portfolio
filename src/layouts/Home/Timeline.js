@@ -1,8 +1,8 @@
 import { Section } from 'components/Section';
-import { Text } from 'components/Text';
+// import { Text } from 'components/Text';
 import { Transition } from 'components/Transition';
-import React, { Fragment, useState } from 'react';
-import { media } from 'utils/style';
+import React, { useState } from 'react';
+// import { media } from 'utils/style';
 import styles from './Timeline.module.css';
 
 import {
