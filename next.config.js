@@ -1,6 +1,4 @@
 module.exports = {
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio/',
   reactStrictMode: true,
   trailingSlash: true,
   pageExtensions: ['page.js', 'api.js'],
