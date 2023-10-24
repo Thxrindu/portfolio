@@ -7,7 +7,7 @@ Cache.enabled = true;
 const dracoLoader = new DRACOLoader();
 const gltfLoader = new GLTFLoader();
 
-const basePath = '/portfolio';
+const basePath = '/public/portfolio';
 
 dracoLoader.setDecoderPath(`${basePath}/draco/`);
 gltfLoader.setDRACOLoader(dracoLoader);
