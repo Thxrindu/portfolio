@@ -5,7 +5,7 @@ import styles from './Footer.module.css';
 export const Footer = ({ className }) => (
   <footer className={classes(styles.footer, className)}>
     <Text size="s" align="center">
-      <span className={styles.date}>{`THARINDU SAMARAKOON | 2023`}</span>
+      <span className={styles.date}>{`THARINDU SAMARAKOON | 2024`}</span>
     </Text>
   </footer>
 );
