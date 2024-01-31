@@ -107,7 +107,7 @@ export const Timeline = ({ id, visible, sectionRef }) => {
                   className="vertical-timeline-element--work"
                   contentStyle={{ color: '#fff' }}
                   contentArrowStyle={{ borderRight: '7px solid  #00e5ff' }}
-                  date="2020 - present"
+                  date="2020 - 2023"
                   iconStyle={{ background: 'black', color: '#fff' }}
                   icon={<BsMortarboard />}
                 >
