@@ -93,7 +93,7 @@ export const TimelineExp = ({ id, visible, sectionRef }) => {
                   className="vertical-timeline-element--work"
                   contentStyle={{ color: '#fff' }}
                   contentArrowStyle={{ borderRight: '7px solid  #00e5ff' }}
-                  date="2023 January - present"
+                  date="2023 January - 2023 December"
                   iconStyle={{ background: 'black', color: '#fff' }}
                   icon={<BsFillBuildingsFill />}
                 >
