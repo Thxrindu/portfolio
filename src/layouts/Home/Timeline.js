@@ -117,7 +117,7 @@ export const Timeline = ({ id, visible, sectionRef }) => {
                   </h4>
                   <p>
                     BSc (Hons) in Information Technology Specialising in Software
-                    Engineering
+                    Engineering - Second Class (Upper Division)
                   </p>
                 </VerticalTimelineElement>
               </VerticalTimeline>

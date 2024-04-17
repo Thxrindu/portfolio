@@ -108,6 +108,24 @@ export const TimelineExp = ({ id, visible, sectionRef }) => {
                   </p>
                   <p>Agile working environment</p>
                 </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                  className="vertical-timeline-element--work"
+                  contentStyle={{ color: '#fff' }}
+                  contentArrowStyle={{ borderRight: '7px solid  #00e5ff' }}
+                  date="2023 January - 2023 December"
+                  iconStyle={{ background: 'black', color: '#fff' }}
+                  icon={<BsFillBuildingsFill />}
+                >
+                  <h3 className="vertical-timeline-element-title">
+                    Associate Application Support Engineer
+                  </h3>
+                  <h4 className="vertical-timeline-element-subtitle">Syntax Genie</h4>
+                  <p>Investigated and resolved ERP system issues through adept troubleshooting and debugging methods</p>
+                  <p>
+                  Collaborated with teams to enhance software application reliability and efficiency
+                  </p>
+                </VerticalTimelineElement>
               </VerticalTimeline>
             </div>
           </div>
