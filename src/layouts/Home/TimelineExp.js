@@ -118,7 +118,7 @@ export const TimelineExp = ({ id, visible, sectionRef }) => {
                   icon={<BsFillBuildingsFill />}
                 >
                   <h3 className="vertical-timeline-element-title">
-                    Associate Application Support Engineer
+                    Associate Software Engineer
                   </h3>
                   <h4 className="vertical-timeline-element-subtitle">DP Infotech</h4>
                   <p>Investigated and resolved ERP system issues through adept troubleshooting and debugging methods</p>
