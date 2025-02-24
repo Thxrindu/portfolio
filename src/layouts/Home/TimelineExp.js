@@ -121,7 +121,7 @@ export const TimelineExp = ({ id, visible, sectionRef }) => {
                     Associate Software Engineer 
                   </h3>
                   <h4 className="vertical-timeline-element-subtitle">DP Infotech</h4>
-                  <p>Investigated and resolved ERP system issues through adept troubleshooting and debugging methods</p>
+                  <p> Involved in creating new modules for the existing AFL ERP system ( Asset Draft module & System Data  Correction module ) - .NET Core, Javascript, Oracle DB. </p>
                   <p>
                   Collaborated with teams to enhance software application reliability and efficiency
                   </p>
